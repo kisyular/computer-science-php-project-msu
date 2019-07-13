@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="33221e40-cb59-45b9-8876-3dc19e95f5db" name="webdev-step3" url="http://webdev.cse.msu.edu/~tesfami1/step3">
+        <fileTransfer host="arctic.cse.msu.edu" port="22" rootFolder="/user/tesfami1/classweb/step3" accessType="SFTP">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
+      <webServer id="38d4aac2-4f54-4da8-9d31-71a13c9294a8" name="webdev-step1" url="http://webdev.cse.msu.edu/~tesfami1/step1">
+        <fileTransfer host="arctic.cse.msu.edu" port="22" rootFolder="/user/tesfami1/classweb/step1" accessType="SFTP">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
+      <webServer id="b4ca16df-d556-4022-9716-fde61a7f40d4" name="webdev-step4" url="http://webdev.cse.msu.edu/~tesfami1/step4">
+        <fileTransfer host="arctic.cse.msu.edu" port="22" rootFolder="/user/tesfami1/classweb/step4" accessType="SFTP">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>
