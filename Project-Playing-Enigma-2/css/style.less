@@ -1,0 +1,278 @@
+/**
+    Reset everything to 0;
+ */
+html, body, header, footer, hgroup, nav, article, section, figure,
+figcaption, h1, h2, h3, ul, li, body, div, p, img {
+    margin: 0;
+    padding: 0;
+    /*font-size: 100%;*/
+    vertical-align: baseline;
+    border: 0;
+}
+/**
+    Body styles
+ */
+body{
+    background-color: black;
+    font-family: "Arial", sans-serif;
+}
+div.form-div div.form-box form p.error-message, div.form-div-batch div.form-box-settings form p.error-message{
+    color: red;
+    font-style: italic;
+    padding: 1em;
+}
+
+/**
+    Header Styles
+ */
+header, footer {
+    background-color: #18453b;
+    text-align: center;
+}
+header figure img, footer figure img {
+    width: 100%;
+    height: auto;
+    max-width: 800px;
+}
+header figure, footer figure {
+    width: 95%;
+    max-width: 800px;
+    margin:auto;
+    padding: 0.5em;
+}
+header nav {
+    padding:0 0 0.5em 0.5em;
+    font-size: 1.25em;
+    max-width: 800px;
+    width: 95%;
+    margin:auto;
+    text-align: left;
+}
+header nav p{
+    display: inline-block;
+    text-align: left;
+    padding-right: 2em;
+}
+header nav p a{
+    text-decoration: none;
+    color: #97a2a2;
+}
+header nav p a:hover, header nav p a:active{
+    color: White;
+}
+header nav p a.current-link {
+    color: White;
+}
+/**
+    Welcome div styles
+ */
+div.welcome h1 {
+    color:white;
+    font-size: 1.5em;
+    text-align:center;
+    padding: 0.5em;
+    font-style: italic;
+}
+/**
+    Form div styles
+ */
+div.form-div {
+    background-color: #97a2a2;
+    padding: 0.5em;
+}
+div.form-div div.form-box, div.form-div-enigma div.form-box {
+    width: 95%;
+    max-width: 800px;
+    background-image: url("../texture.png");
+    margin: auto;
+    border: 1px solid black;
+    padding: 1em 0 1em 0;
+    text-align: center;
+}
+div.form-box form{
+    display:inline-block;
+    width: 19em;
+    padding: 1em 0 1em 0;
+}
+div.form-box form p{
+    text-align: justify;
+}
+div.form-box form p label{
+    color: white;
+    font-size: 1.5em;
+}
+div.form-box p{
+    color:white;
+}
+div.form-box form p{
+    input {
+        margin:0 0 1.5em 0;
+        width: 100%;
+        border: none;
+        padding: 0.5em 0 0.5em 0;
+    }
+    a {
+        color: white;
+    }
+}
+
+div.form-box form p input[type="submit"]{
+    width: 100%;
+    border-radius: 0;
+    border: none;
+    font-size: 1.25em;
+    font-weight: normal;
+}
+
+/**
+ Batch specific
+ */
+div.form-div-batch {
+    background-color: #97a2a2;
+    padding:0.5em 0.5em 1em 0.5em;
+}
+div.form-div-batch div.enigma{
+    position: relative;
+    width:800px;
+    padding: 1em;
+    margin: auto;
+    font-size: 18px;
+    text-align: center;
+}
+div.form-div-batch div.enigma img {
+    width: 92%;
+}
+@media only screen and (max-width: 800px) {
+    div.form-div-batch div.enigma {
+        width: 600px;
+        font-size: 14px;
+        height: auto;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    div.form-div-batch div.enigma {
+        width: 400px;
+        font-size: 9px;
+        height: auto;
+    }
+}
+div.form-div-batch div.form-box {
+    width: 95%;
+    max-width: 800px;
+    background-image: url("../texture.png");
+    margin: auto;
+    border: 1px solid black;
+    padding: 1em 0 1em 0;
+    text-align: center;
+}
+div.form-div-batch div.form-box form{
+    display:block;
+    width: 100%;
+    padding: 1em 0 1em 0;
+    margin:auto;
+}
+div.form-div-batch div.form-box form p{
+    display: inline-block;
+}
+div.form-div-batch div.form-box form p input[type="submit"]{
+    border-radius: 0;
+    border: none;
+    font-size: 1em;
+    font-weight: normal;
+}
+div.form-div-batch div.text-area {
+    padding: 0.5em;
+    width: 100%;
+}
+div.form-div-batch div.text-area textarea{
+    width: 45%;
+    margin-right:0.5em;
+}
+div.form-div-batch p.key{
+    position:absolute;
+}
+div.form-div-batch p.key-A1 {
+    top:52.5%;
+    left:31%;
+    z-index: 100;
+    color:black;
+    font-size: 1.25em;
+}
+div.form-div-batch p.key-A2{
+    top:52.5%;
+    left:40%;
+    z-index: 100;
+    color:black;
+    font-size: 1.25em;
+}
+div.form-div-batch p.key-A3{
+    top:52.5%;
+    left:49.5%;
+    z-index: 100;
+    color:black;
+    font-size: 1.25em;
+}
+/**
+ Settings specific
+ */
+div.form-div-batch div.form-box-settings {
+    width: 95%;
+    max-width: 800px;
+    background-image: url("../texture.png");
+    margin: auto;
+    border: 1px solid black;
+    padding: 1em 0 1em 0;
+    text-align: center;
+}
+/*div.form-div-batch div.form-box form p{*/
+    /*display: inline-block;*/
+/*}*/
+div.form-div-batch div.form-box-settings form p input[type="submit"]{
+    border-radius: 0;
+    border: none;
+    font-size: 1em;
+    font-weight: normal;
+}
+div.form-div-batch div.form-box-settings form{
+    display:block;
+    width: 100%;
+    padding: 1em 0 1em 0;
+    margin: auto;
+}
+div.form-div-batch div.form-box-settings div.options p{
+    display: inline-block;
+    color: White;
+    padding: 0.5em 1em 0.5em 0.5em;
+}
+div.form-div-batch div.form-box-settings div.options p input[type="text"]{
+    width: 2em;
+    padding: 0;
+}
+div.form-div-batch div.form-box-settings div#settings-form p{
+    display: inline-block;
+    width: 14%;
+}
+div.form-div-batch div.form-box-settings div#settings-form{
+    margin: auto;
+    text-align: center;
+}
+div.form-div-batch div.form-box-settings div#settings-form p input[type="submit"]{
+    width: 100%;
+}
+button.key:active {
+    /*border: 1px solid #293F44;*/
+    border: none;
+    transform: translateY(2px);
+    border-radius: 10px;
+}
+/**
+    Footer styles
+ */
+footer{
+    margin-bottom: 1em;
+}
+@import "enigma.less";
+@import "send.less";
+@import "search.less";
+@import "receive.less";

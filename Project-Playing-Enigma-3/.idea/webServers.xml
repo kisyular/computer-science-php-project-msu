@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="383a6784-ffd1-4057-809c-ba0e1428da99" name="webdev-project3" url="http://webdev.cse.msu.edu/~tesfami1/project3">
+        <fileTransfer host="arctic.cse.msu.edu" port="22" rootFolder="/user/tesfami1/classweb/project3" accessType="SFTP">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>
